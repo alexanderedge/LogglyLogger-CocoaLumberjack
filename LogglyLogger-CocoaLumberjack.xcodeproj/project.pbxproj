@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DE55A4771C04FD10004218F3 /* LogglyLogger-CocoaLumberjack.h in Headers */ = {isa = PBXBuildFile; fileRef = DE55A4761C04FD10004218F3 /* LogglyLogger-CocoaLumberjack.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE55A4841C04FD43004218F3 /* LogglyFields.h in Headers */ = {isa = PBXBuildFile; fileRef = DE55A47E1C04FD43004218F3 /* LogglyFields.h */; };
+		DE55A4771C04FD10004218F3 /* LogglyLogger_CocoaLumberjack.h in Headers */ = {isa = PBXBuildFile; fileRef = DE55A4761C04FD10004218F3 /* LogglyLogger_CocoaLumberjack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE55A4841C04FD43004218F3 /* LogglyFields.h in Headers */ = {isa = PBXBuildFile; fileRef = DE55A47E1C04FD43004218F3 /* LogglyFields.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE55A4851C04FD43004218F3 /* LogglyFields.m in Sources */ = {isa = PBXBuildFile; fileRef = DE55A47F1C04FD43004218F3 /* LogglyFields.m */; };
-		DE55A4861C04FD43004218F3 /* LogglyFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = DE55A4801C04FD43004218F3 /* LogglyFormatter.h */; };
+		DE55A4861C04FD43004218F3 /* LogglyFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = DE55A4801C04FD43004218F3 /* LogglyFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE55A4871C04FD43004218F3 /* LogglyFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = DE55A4811C04FD43004218F3 /* LogglyFormatter.m */; };
-		DE55A4881C04FD43004218F3 /* LogglyLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = DE55A4821C04FD43004218F3 /* LogglyLogger.h */; };
+		DE55A4881C04FD43004218F3 /* LogglyLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = DE55A4821C04FD43004218F3 /* LogglyLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE55A4891C04FD43004218F3 /* LogglyLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = DE55A4831C04FD43004218F3 /* LogglyLogger.m */; };
 		DE55A48D1C04FE3C004218F3 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE55A48C1C04FE35004218F3 /* CocoaLumberjack.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DE55A4731C04FD10004218F3 /* LogglyLogger_CocoaLumberjack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LogglyLogger_CocoaLumberjack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE55A4761C04FD10004218F3 /* LogglyLogger-CocoaLumberjack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LogglyLogger-CocoaLumberjack.h"; sourceTree = "<group>"; };
+		DE55A4761C04FD10004218F3 /* LogglyLogger_CocoaLumberjack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogglyLogger_CocoaLumberjack.h; sourceTree = "<group>"; };
 		DE55A4781C04FD10004218F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE55A47E1C04FD43004218F3 /* LogglyFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogglyFields.h; sourceTree = "<group>"; };
 		DE55A47F1C04FD43004218F3 /* LogglyFields.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogglyFields.m; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				DE55A48C1C04FE35004218F3 /* CocoaLumberjack.framework */,
-				DE55A4761C04FD10004218F3 /* LogglyLogger-CocoaLumberjack.h */,
+				DE55A4761C04FD10004218F3 /* LogglyLogger_CocoaLumberjack.h */,
 				DE55A47E1C04FD43004218F3 /* LogglyFields.h */,
 				DE55A47F1C04FD43004218F3 /* LogglyFields.m */,
 				DE55A4801C04FD43004218F3 /* LogglyFormatter.h */,
@@ -86,7 +86,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE55A4861C04FD43004218F3 /* LogglyFormatter.h in Headers */,
-				DE55A4771C04FD10004218F3 /* LogglyLogger-CocoaLumberjack.h in Headers */,
+				DE55A4771C04FD10004218F3 /* LogglyLogger_CocoaLumberjack.h in Headers */,
 				DE55A4881C04FD43004218F3 /* LogglyLogger.h in Headers */,
 				DE55A4841C04FD43004218F3 /* LogglyFields.h in Headers */,
 			);
